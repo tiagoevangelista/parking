@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "parking.domain", "parking.d
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApps", "WebApps", "{056A864E-4D6F-4A35-A013-3C1410E5D161}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "parking.API", "parking.API\parking.API.csproj", "{692E7915-43CD-42C1-839B-48C40D90B711}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,9 +25,16 @@ Global
 		{5634E1B4-B37F-4C95-91DC-2427D648F2BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5634E1B4-B37F-4C95-91DC-2427D648F2BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5634E1B4-B37F-4C95-91DC-2427D648F2BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{692E7915-43CD-42C1-839B-48C40D90B711}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{692E7915-43CD-42C1-839B-48C40D90B711}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{692E7915-43CD-42C1-839B-48C40D90B711}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{692E7915-43CD-42C1-839B-48C40D90B711}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{692E7915-43CD-42C1-839B-48C40D90B711} = {056A864E-4D6F-4A35-A013-3C1410E5D161}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {21243259-BAD2-4AB3-87A8-BFDF39E51572}
