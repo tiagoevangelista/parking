@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34024.191
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "parking.core", "parking.core\parking.core.csproj", "{744A32EF-F192-4695-9E18-720D8310CBC8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "parking.core", "parking.core\parking.core.csproj", "{744A32EF-F192-4695-9E18-720D8310CBC8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "parking.domain", "parking.domain\parking.domain.csproj", "{5634E1B4-B37F-4C95-91DC-2427D648F2BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "parking.domain", "parking.domain\parking.domain.csproj", "{5634E1B4-B37F-4C95-91DC-2427D648F2BC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApps", "WebApps", "{056A864E-4D6F-4A35-A013-3C1410E5D161}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "parking.API", "parking.API\parking.API.csproj", "{692E7915-43CD-42C1-839B-48C40D90B711}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "parking.API", "parking.API\parking.API.csproj", "{692E7915-43CD-42C1-839B-48C40D90B711}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "parking.WebClient", "parking.WebClient\parking.WebClient.csproj", "{50B0D06B-E940-43F9-8943-E9507DA04402}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,12 +31,17 @@ Global
 		{692E7915-43CD-42C1-839B-48C40D90B711}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{692E7915-43CD-42C1-839B-48C40D90B711}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{692E7915-43CD-42C1-839B-48C40D90B711}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50B0D06B-E940-43F9-8943-E9507DA04402}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50B0D06B-E940-43F9-8943-E9507DA04402}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50B0D06B-E940-43F9-8943-E9507DA04402}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50B0D06B-E940-43F9-8943-E9507DA04402}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{692E7915-43CD-42C1-839B-48C40D90B711} = {056A864E-4D6F-4A35-A013-3C1410E5D161}
+		{50B0D06B-E940-43F9-8943-E9507DA04402} = {056A864E-4D6F-4A35-A013-3C1410E5D161}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {21243259-BAD2-4AB3-87A8-BFDF39E51572}
